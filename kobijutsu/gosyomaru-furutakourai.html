@@ -8,7 +8,7 @@
 body{font-family:-apple-system,'Hiragino Mincho ProN','Yu Mincho',serif;max-width:780px;margin:2em auto;padding:0 1em;line-height:1.7;color:#222}
 h1{font-size:1.6em;border-bottom:2px solid #333;padding-bottom:.3em}
 h2{font-size:1.25em;border-left:4px solid #555;padding-left:.5em;margin-top:1.8em}
-h3{font-size:1.1em;color:#444}
+h3{font-size:1.05em;color:#444;margin-top:1.4em}
 img{max-width:100%;height:auto;display:block;margin:1em auto;border:1px solid #ccc}
 table{border-collapse:collapse;width:100%;margin:1em 0;font-size:.92em}
 th,td{border:1px solid #999;padding:.4em .6em;text-align:left;vertical-align:top}
@@ -23,462 +23,284 @@ hr{border:none;border-top:1px solid #ccc;margin:2em 0}
 .fm{background:#fafafa;border:1px solid #ddd;padding:.6em 1em;margin:1em 0;font-size:.82em;color:#555}
 .fm summary{cursor:pointer;font-weight:bold;color:#333}
 .fm pre{background:#fff;margin:.5em 0 0 0;font-size:.86em}
+.acc{border:1px solid #ddd;border-radius:4px;padding:.6em 1em;margin:1em 0;background:#fcfcfc}
+.acc summary{cursor:pointer;font-weight:bold;color:#333;padding:.2em 0;list-style:none}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::before{content:'▶ ';color:#888;font-size:.85em;display:inline-block;transition:transform .15s}
+.acc[open] summary::before{transform:rotate(90deg)}
+.acc[open] summary{border-bottom:1px solid #eee;padding-bottom:.4em;margin-bottom:.6em}
+.todo{color:#888;font-size:.92em;margin-top:.4em}
+.todo li{margin:.15em 0}
+.note{color:#666;font-size:.9em}
 </style>
 </head>
 <body>
 <h1>御所丸茶碗 銘 古田高麗</h1>
-<p><img src="https://dl.ndl.go.jp/api/iiif/1014976/R0000235/full/1008,/0/default.jpg" alt="『大正名器鑑』第6編 御所丸之部 古田高麗 図版（NDLデジタルコレクション pid:1014976 コマ235）— 茶碗側面・底面・蓋箱"></p>
-<p>出典: 高橋義雄編『大正名器鑑』第6編, 大正名器鑑編纂所, 1921-1926 / 図版 <a href="https://dl.ndl.go.jp/pid/1014976/1/235">pid:1014976 コマ235</a> ／ 本文 <a href="https://dl.ndl.go.jp/pid/1014976/1/236">コマ236-</a>（パブリックドメイン）</p>
+
+<p><img src="https://dl.ndl.go.jp/api/iiif/1014976/R0000235/full/1008,/0/default.jpg" alt="『大正名器鑑』第6編 御所丸之部 古田高麗 図版（NDLデジタルコレクション pid:1014976 コマ235）"></p>
+
+<p class="note">出典: 高橋義雄編『大正名器鑑』第6編, 1921-1926 / 図版 <a href="https://dl.ndl.go.jp/pid/1014976/1/235">pid:1014976 コマ235</a> ／ 本文 <a href="https://dl.ndl.go.jp/pid/1014976/1/236">コマ236-</a>（パブリックドメイン）</p>
+
 <h2>概要</h2>
-<p>御所丸茶碗のうち、古田織部所持の白手として「銘 古田高麗（ふるたごうらい）」と呼ばれる一碗。『大正名器鑑』第6編 御所丸之部の冒頭に「古田高麗」として収載される名物茶碗である。</p>
-<h2>名物指定</h2>
-<ul>
-<li><strong>収録</strong>: 『大正名器鑑』第6編 御所丸之部 冒頭項目（図版コマ235／本文コマ236-、印刷ページ225-）</li>
-<li><strong>編者</strong>: 高橋義雄（号:箒庵、1861-1937）</li>
-<li><strong>指定区分</strong>: 名物（『大正名器鑑』所載）</li>
+<p>御所丸茶碗のうち、古田織部所持の白手として「銘 古田高麗（ふるたごうらい）」と呼ばれる一碗。『大正名器鑑』第6編 御所丸之部の<strong>冒頭</strong>に「古田高麗」として収載される名物茶碗で、白御所丸群の筆頭。古田織部 → 江戸深川冬木家 → 古筆了泉 → 吉原検番 → 扇屋宇右衛門 → 天明年間に鴻池家へ千二百両で渡り、鴻池家所蔵を経て、戦後に非公表の所蔵者へ。小堀遠州筆「古田高麗」の箱書を有し、本碗を「古田高麗」と呼ぶ慣行の起点とされる。</p>
+
+<h2>取引額・売立記録</h2>
+<table>
+<thead>
+<tr><th>年代</th><th>売</th><th>買</th><th>仲介</th><th>価額</th><th>同時取引</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>天明年間（1781-1789）頃</td>
+<td>扇屋宇右衛門（江戸吉原）</td>
+<td>鴻池炉雪（鴻池家・大阪）</td>
+<td>加賀屋作左衛門（加賀作）</td>
+<td><strong>1200両</strong></td>
+<td>ノンカウ作 如心齋銘「初雪」茶碗 800両（<strong>合計2000両</strong>）</td>
+</tr>
+<tr>
+<td>昭和17年（1942）</td>
+<td>鴻池家入札</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>古田高麗は本入札には<strong>出品されず</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>取引成立後、江戸の十人衆（河村・仙波等）が「鳶に油揚を浚はれた」心地で地団太を踏んで悔しがった、と東西茶人間の談柄になった、と『書画骨董播出物』『名物目利聞書』が伝える。</p>
+<p class="note">出典: 大正名器鑑 第6編 古田高麗項 koma 237</p>
+</blockquote>
+
+<h2>茶会記での登場</h2>
+<table>
+<thead>
+<tr><th>日付</th><th>場所</th><th>同席</th><th>道具組</th><th>記録</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>1920-05-04</td>
+<td>大阪市南区瓦屋橋 鴻池善右衛門男爵別邸（唐子の間）</td>
+<td>高橋箒庵, 大正名器鑑編集部員一行</td>
+<td>床: 寸松庵色紙 友則歌切／花入: 伊賀手附 大山運華・都忘れ</td>
+<td>中央大正茶道記</td>
+</tr>
+</tbody>
+</table>
+<p class="note">OCR範囲（『大正名器鑑』第6編 koma 235-240）で確証のある茶会記は上記1件のみ。</p>
+
+<p><strong>未調査:</strong></p>
+<ul class="todo">
+<li>松平不昧『古今名物類聚』『雲州蔵帳』への登場有無</li>
+<li>大正・昭和初期の茶道専門誌（『茶道月報』『茶わん』『茶道』『淡交』『目の眼』）</li>
+<li>鴻池家所蔵期（江戸後期-昭和17年）の他茶会記</li>
+<li>戦後（非公表所蔵期）の茶会記登場有無</li>
 </ul>
-<h2>一次資料：『大正名器鑑』第6編 御所丸之部 古田高麗</h2>
-<p>冒頭画像（pid:1014976 コマ235）に「古田高麗」キャプションと共に茶碗側面・底面・蓋箱の図版3点が掲載される。本文記述は続くコマ236-240（印刷ページ225-）。<br>ライセンス: パブリックドメイン（編者 高橋義雄 1861-1937 没後70年経過、NDL「インターネット公開」資料）</p>
-<p>OCR取得経路: NDL「次世代デジタルライブラリー」<code>analyze/page</code> API（<code>https://lab.ndl.go.jp/dl/api/analyze/page/{pid}_{koma}</code>、coordjson形式の縦書き対応OCR）。</p>
-<h3>名称由来（コマ236「名称」項より）</h3>
+
+<h2>展観履歴</h2>
+<table>
+<thead>
+<tr><th>年</th><th>区分</th><th>内容</th><th>典拠</th></tr>
+</thead>
+<tbody>
+<tr><td>1920</td><td>私的実見</td><td>大阪鴻池善右衛門男爵別邸での実見（大正名器鑑編纂のため）</td><td>大正名器鑑 koma 237</td></tr>
+<tr><td>1921-1926</td><td>図版・典籍収載</td><td>『大正名器鑑』第6編 御所丸之部 古田高麗（図版コマ235、本文コマ236-240）</td><td>大正名器鑑 第6編</td></tr>
+<tr><td>1942</td><td>売立</td><td>鴻池家入札（昭和十七年）に<strong>出品されず</strong>（編者注）</td><td>大正名器鑑 koma 237</td></tr>
+</tbody>
+</table>
+
+<p><strong>未調査:</strong></p>
+<ul class="todo">
+<li>戦前期主要展（畠山・五島・根津・三井・湯木 ほか）への出品有無</li>
+<li>戦後の御所丸特集展（各美術館・博物館・茶道資料館）への出品有無</li>
+<li>図録・展覧会カタログでの言及</li>
+</ul>
+<p class="note">戦後の所蔵者非公表のため、近年の展観出品はトレースが困難。網羅調査は別途タスク化予定。</p>
+
+<hr>
+
+<details class="acc">
+<summary>📚 名物指定</summary>
+<ul>
+<li>収録: 『大正名器鑑』第6編 御所丸之部 <strong>冒頭</strong>（白御所丸の筆頭）</li>
+<li>図版: コマ235（茶碗側面・底面・蓋箱の図版3点）</li>
+<li>本文: コマ236-240（印刷ページ225-）</li>
+<li>編者: 高橋義雄（号: 箒庵、1861-1937）</li>
+<li>区分: 名物（『大正名器鑑』所載）</li>
+</ul>
+</details>
+
+<details class="acc">
+<summary>🏆 同時代評（一次資料中の評価言）</summary>
+<blockquote>
+<p><strong>古来此種茶碗中の白眉と推さるゝも決して偶然に非ざるなり</strong><br>
+──『中央大正茶道記』（大正九年五月四日 鴻池別邸茶事）／『大正名器鑑』第6編 koma 237 所引</p>
+</blockquote>
+<blockquote>
+<p><strong>御所丸の最上</strong><br>
+──『名物目利聞書』／同上所引</p>
+</blockquote>
+<blockquote>
+<p><strong>古今無雙の茶碗なり</strong><br>
+──小堀遠州書付伝聞（古筆了仲所持時）／同上所引</p>
+</blockquote>
+</details>
+
+<details class="acc">
+<summary>👁 見所（景色）</summary>
+<table>
+<thead><tr><th>観</th><th>所見</th><th>典拠</th></tr></thead>
+<tbody>
+<tr><td>釉景</td><td>半面は白鼠色土を露出、他の半面は白釉中に赤・黄を現出。窯内自然変態として比類なし</td><td>koma 237 実見記</td></tr>
+<tr><td>桃色なだれ</td><td>腰以下にホンノリと桃色を帯び、色釉が処々に厚くなだれ掛かる</td><td>koma 237</td></tr>
+<tr><td>高台</td><td>六角とも八角とも判別困難の不規則。作行の力量を示す</td><td>koma 237</td></tr>
+<tr><td>内部</td><td>口縁廻りに茶渋（長期使用の風格）</td><td>koma 237</td></tr>
+</tbody>
+</table>
+</details>
+
+<details class="acc">
+<summary>🛠 作行（つくりゆき）</summary>
+<table>
+<thead><tr><th>部位</th><th>仕様</th></tr></thead>
+<tbody>
+<tr><td>口作</td><td>丸縁、括り返し段を成す</td></tr>
+<tr><td>厚さ</td><td>厚薄不規則</td></tr>
+<tr><td>膕廻</td><td>深く括れる</td></tr>
+<tr><td>裾以下</td><td>飴甲形の切箟（へら）立ち</td></tr>
+<tr><td>高台形</td><td>六角／八角判別困難の不規則</td></tr>
+<tr><td>釉</td><td>総体白釉、腰以下に桃色釉のなだれ</td></tr>
+<tr><td>露出土</td><td>半面に白鼠色土が露出</td></tr>
+</tbody>
+</table>
+<p class="note">出典: 大正名器鑑 koma 237 実見記（大正九年五月四日）</p>
+</details>
+
+<details class="acc">
+<summary>📐 寸法</summary>
+<table>
+<thead><tr><th>項目</th><th>値</th></tr></thead>
+<tbody>
+<tr><td>高さ</td><td>7.5–8.0 cm</td></tr>
+<tr><td>口径</td><td>11.2–13.0 cm（広き所四寸三分 / 狭き所三寸八分）</td></tr>
+<tr><td>高台外径</td><td>7.3–7.7 cm</td></tr>
+<tr><td>高台高さ</td><td>0.7–0.9 cm</td></tr>
+<tr><td>重さ</td><td>約100匁5分</td></tr>
+</tbody>
+</table>
+<p class="note">出典: NDL OCR 抽出（koma 236「銘物集」項・松山青柯「つれゞの友」項）</p>
+</details>
+
+<details class="acc">
+<summary>📦 箱書・付属</summary>
+<table>
+<thead><tr><th>部位</th><th>仕様</th></tr></thead>
+<tbody>
+<tr><td>内箱</td><td>桐白木、ヤロウ蓋、杢堅</td></tr>
+<tr><td>内箱蓋表書付</td><td><strong>小堀遠州筆「古田高麗」</strong></td></tr>
+<tr><td>仕覆</td><td>白地大唐草紋様緞子（緒つがり紫）</td></tr>
+<tr><td>替仕覆</td><td>裏白無地緞子（一袋）</td></tr>
+<tr><td>外箱</td><td>桐白木</td></tr>
+<tr><td>添書付</td><td>一通（内容詳細はOCR可読範囲外）</td></tr>
+</tbody>
+</table>
+<p class="note">遠州箱書「古田高麗」は本碗を「古田高麗」と呼ぶ慣行の起点。遠州書付の他遺例との筆致照合は別途調査予定。出典: koma 236</p>
+</details>
+
+<details class="acc">
+<summary>🔗 伝来（系譜）</summary>
+<pre><code>古田織部 ─→ 江戸深川 冬木家 ─→ 古筆了泉 ─→ (質流れ) 吉原検番大黒屋
+        ─→ 扇屋宇右衛門 ─→ (加賀作の周旋) 鴻池炉雪 ─→ 鴻池家 ─→ 非公表（大阪在 私家旧蔵伝）</code></pre>
+<table>
+<thead><tr><th>順</th><th>所持者</th><th>時期</th><th>摘要</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>古田織部</td><td>桃山-江戸初期</td><td>注文・所持。「古田」銘の由来</td></tr>
+<tr><td>2</td><td>冬木家</td><td>江戸期</td><td>江戸深川の豪商</td></tr>
+<tr><td>3</td><td>古筆了泉</td><td>江戸中期</td><td>一時所持。吉原通いの資金繰りで質入</td></tr>
+<tr><td>4</td><td>吉原 検番大黒屋</td><td>江戸中期</td><td>質流れにより取得</td></tr>
+<tr><td>5</td><td>扇屋宇右衛門</td><td>江戸中期</td><td>引取</td></tr>
+<tr><td>6</td><td>鴻池炉雪</td><td>天明年間（1781-1789）頃</td><td>加賀作の周旋により1200両で入手</td></tr>
+<tr><td>7</td><td>鴻池家</td><td>江戸後期-昭和17年</td><td>昭和十七年鴻池家入札には出品されず</td></tr>
+<tr><td>8</td><td><strong>非公表</strong></td><td>戦後-現在</td><td>戦後に鴻池家を出る</td></tr>
+</tbody>
+</table>
+<p class="note">典拠: 大正名器鑑 koma 236-237「伝来」項</p>
+</details>
+
+<details class="acc">
+<summary>⚠ 写し・倣作についての注意</summary>
+<p>御所丸（白手・黒刷毛とも）は江戸後期以降の倣作・写しが多い。「古田高麗」の箱書のみで本歌と即断するのは危険。本歌の判定は最低限以下4点の同時突合が必要:</p>
+<ol>
+<li><strong>寸法</strong>: 高 7.5–8.0 cm／口径 11.2–13.0 cm／高台径 7.3–7.7 cm</li>
+<li><strong>高台</strong>: 六角〜八角判別困難の不規則形</li>
+<li><strong>釉景</strong>: 半面白鼠色土露出 ／ 半面に赤・黄を含む白釉の窯変</li>
+<li><strong>付属</strong>: 遠州書付内箱（桐白木・ヤロウ蓋）、白地大唐草緞子仕覆、外箱、添書付一通の揃い</li>
+</ol>
+<p>寸法・釉景のみが合う後代写しは取引筋にも存在する。</p>
+</details>
+
+<details class="acc">
+<summary>🔍 状態（実見時 大正九年）</summary>
+<ul>
+<li>疵・直しの明示的言及なし</li>
+<li>口縁廻りに茶渋掛り（使用着色）</li>
+<li>後代の修繕・金繕いについては本文中に記載なし</li>
+</ul>
+</details>
+
+<details class="acc">
+<summary>👥 同手の御所丸茶碗（『大正名器鑑』第6編所載）</summary>
+<table>
+<thead><tr><th>銘・系統</th><th>旧蔵</th><th>本文コマ</th></tr></thead>
+<tbody>
+<tr><td><strong>古田高麗（白）</strong></td><td>男爵鴻池善右衞門</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/236">236-240</a></td></tr>
+<tr><td>御所丸（白）</td><td>東京 加藤正義</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/241">241</a></td></tr>
+<tr><td>御所丸（白）</td><td>大阪 藤田彦三郎</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/243">243</a></td></tr>
+<tr><td>御所丸（黒刷毛）</td><td>男爵 三井八郎右衞門</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/247">247</a></td></tr>
+<tr><td>御所丸（黒刷毛）</td><td>男爵 岩崎小彌太</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/253">253</a></td></tr>
+<tr><td>御所丸（黒刷毛）</td><td>大阪 和田久左衞門</td><td><a href="https://dl.ndl.go.jp/pid/1014976/1/255">255</a></td></tr>
+</tbody>
+</table>
+<p class="note">古田高麗は白御所丸群の冒頭・筆頭として収載される。</p>
+</details>
+
+<details class="acc">
+<summary>📜 一次資料（OCR本文）</summary>
+<p class="note">以下は『大正名器鑑』第6編 古田高麗項本文（NDL OCR より引用ブロック化）。原文の判読困難箇所は前後文脈・繰返出現する固有名詞から最小限の修正を加えている。</p>
+
+<h3>名称由来（koma 236）</h3>
 <blockquote>
 <p>古田織部の所持せしに依りて此名あり、此茶碗今日の所謂御所丸なれども、古織時代には朝鮮焼茶碗の名称後世の如く細別せられず、各種の茶碗を高麗の名の下に包含せしが故に、小堀遠州も之を其箱に古田高麗とは書付けしならん、御所丸とは、太閤の用船御所丸にて持帰れる義なり、箒庵文庫甲第五号の茶書に「御所丸太閤御船御所丸と云ふ、高麗渡り、此時持帰り候故名付く」とあり。</p>
 </blockquote>
-<h3>本文に登場する参照書誌（OCRから抽出）</h3>
-<table>
-<thead>
-<tr>
-<th>書名</th>
-<th>著者</th>
-<th>用途</th>
-<th>該当コマ</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>後学輯</td>
-<td>戸田露吟</td>
-<td>黒絵／無地の弁別、鴻池所蔵碗の特定</td>
-<td>236</td>
-</tr>
-<tr>
-<td>銘物輯</td>
-<td>—</td>
-<td>寸法・箱仕様（重目・口径・高台径ほか）</td>
-<td>236</td>
-</tr>
-<tr>
-<td>つれゞの友</td>
-<td>松山青柯</td>
-<td>寸法・釉薬・高台地土の所見</td>
-<td>236</td>
-</tr>
-<tr>
-<td>茶器名物図絵</td>
-<td>草間和楽</td>
-<td>「冬木氏所持、元来織部公所持」</td>
-<td>236</td>
-</tr>
-<tr>
-<td>箒庵文庫 甲第五号</td>
-<td>—</td>
-<td>「江戸吉原扇屋宇右衛門所持、当時大坂鴻池」</td>
-<td>236</td>
-</tr>
-<tr>
-<td>名物目利間書</td>
-<td>—</td>
-<td>鴻池家入手経緯（加賀作の周旋）詳細</td>
-<td>237</td>
-</tr>
-<tr>
-<td>田軍師団</td>
-<td>他国屋産二郎</td>
-<td>大坂陣以後の伝来</td>
-<td>237</td>
-</tr>
-<tr>
-<td>書画骨董播出物</td>
-<td>—</td>
-<td>「鴻池の御所丸」項</td>
-<td>237</td>
-</tr>
-<tr>
-<td>大正茶道記</td>
-<td>—</td>
-<td>大正九年五月四日 鴻池別邸茶事の記録</td>
-<td>237</td>
-</tr>
-</tbody></table>
-<h3>主要引用（OCR整形版・コマ236）</h3>
-<blockquote>
-<p><strong>［銘物輯 寸法］</strong> 古田高麗 — 重目百壱匁五分余、向前三寸七分、横四寸弐分、高弐寸六分、五分の処もあり。箱、桐、白木、ヤロウ蓋、杢堅に、古田高麗内薬溜りキリ有り、地薬白薄くかせ出来、赤有之作。（茶碗図あり）</p>
-</blockquote>
-<blockquote>
-<p><strong>［松山青柯『つれゞの友』］</strong> 古田高麗 — 掛目百匁五分余、高台横径二寸四分余、同堅径二寸三分、口長径四寸二分余、短径三寸七分。横筋あり、箆目より悉く赤み出づ。高台地土あらはれ、其の中央に赤きしみあり。</p>
-</blockquote>
-<blockquote>
-<p><strong>［戸田露吟『後学輯』］</strong> 黒絵の方は古田高麗といふ方判然たり、古織好たるなり、故に画も織部の如し。無地の方を御所丸と云てよし。鴻池所持の古田高麗は無地の方、是は古織所持故、古田と云て可、然無地にて古田と呼ぶは、是一碗なり。</p>
-</blockquote>
-<blockquote>
-<p><strong>［草間和楽『茶器名物図絵』］</strong> 古田高麗 — 冬木氏所持、元来織部公所持。</p>
-</blockquote>
-<h3>主要引用（OCR整形版・コマ237「伝来」項）</h3>
+
+<h3>伝来（koma 237）</h3>
 <blockquote>
 <p>古田織部所持にして、江戸深川の富豪冬木家に伝はり、其後古筆了泉所蔵中遊興の資に窮して之を吉原の検番大黒屋に入質し、後遂に扇屋宇右衛門の手に渡れり。天明の頃、鴻池隠居炉雪翁此事を聞知し、之を買収せんが為め、出入道具商加賀屋作左衛門通称加賀作を上京せしめしに、加賀作は上方の大家主人の如くに装ひ、扇屋に到りて一ヶ月程流連する間に、持参の茶箱を開きて宇右衛門を招き、次第に懇意を重ぬるに随ひ、宇右衛門も亦田中の茶寮に加賀作を招きて古田高麗を示すに至りしかば、時恰も歳末扇屋に金の入用あるを見て取り、加賀作は程好く相談を進めて、古田高麗を千二百両、ノンカウ作如心斎銘初雪茶碗を八百両、合せて二千両にて譲受くる約束成立するや、兼て用意したる金子を渡し、一刻も早く茶碗を炉雪翁の実検に供すべく早駕籠にて東海道を打通し、首尾能く之を鴻池家に納めたる後にて、河村、仙波など云ふ江戸の十人衆は之を聞き付け、地団太蹈んで悔みたりと云ふ事、当時東西茶人間の一談柄なりしとなり。</p>
 </blockquote>
+
+<h3>実見記（koma 237 大正九年五月四日）</h3>
 <blockquote>
-<p>注: OCR原文の判読困難箇所は前後文脈・繰返出現する固有名詞（鴻池炉雪／加賀作／扇屋宇右衛門等）から最小限の修正を加えている（例: 「ににを」→「之を」、「圧」→「麗」など明白な誤認識）。</p>
+<p>大坂市南区瓦屋橋鴻池善右衛門男別邸に於て実見す。口作丸縁、括り返し段を成し、厚薄不規則、膕廻も深く括れ、裾以下飴甲形の切箟立ち、高台は六角やら八角やら、殆んど見分け難き程不規則にて底径約二寸五分あり。総体白釉の中に、腰以下ホンノリと桃色を帯び其色釉処々に厚くなだれ掛り、高台作行の変化殊に面白く、半面は白鼠色土を見せ、他の半面は白釉の中に赤若くは黄色を現はし、窯内に於て自然に起りたる変態、固より比類ある可らず。内部は口縁廻りに茶渋掛り…</p>
 </blockquote>
-<h3>実見記（コマ237）</h3>
-<blockquote>
-<p>大正九年五月四日、大坂市南区瓦屋橋鴻池善右衛門男別邸に於て実見す。口作丸縁、括り返し段を成し、厚薄不規則、膕廻も深く括れ、裾以下飴甲形の切箟立ち、高台は六角やら八角やら、殆んど見分け難き程不規則にて底径約二寸五分あり。総体白釉の中に、腰以下ホンノリと桃色を帯び其色釉処々に厚くなだれ掛り、高台作行の変化殊に面白く、半面は白鼠色土を見せ、他の半面は白釉の中に赤若くは黄色を現はし、窯内に於て自然に起りたる変態、固より比類ある可らず。内部は口縁廻りに茶渋掛り…（以下コマ240に続く）</p>
-</blockquote>
-<h2>寸法（『大正名器鑑』第6編 古田高麗項より）</h2>
-<table>
-<thead>
-<tr>
-<th>項目</th>
-<th>値</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>高さ</td>
-<td>7.5–8.0 cm</td>
-</tr>
-<tr>
-<td>口径</td>
-<td>11.2–13.0 cm</td>
-</tr>
-<tr>
-<td>高台外径</td>
-<td>7.3–7.7 cm</td>
-</tr>
-<tr>
-<td>高台高さ</td>
-<td>0.7–0.9 cm</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>出典: NDL OCRより抽出（コマ236「銘物輯」項・松山青柯「つれゞの友」項）。原文では尺貫法（寸・分・厘）で記載され、最大値は「広き所四寸三分」「狭き所三寸八分」。</p>
-</blockquote>
-<h2>伝来（系譜）</h2>
-<pre><code>古田織部 ─→ 江戸深川 冬木家 ─→ 古筆了泉 ─→ (質流れ) 吉原検番大黒屋
-        ─→ 扇屋宇右衛門 ─→ (加賀作の周旋) 鴻池炉雪 ─→ 鴻池家 ─→ 大阪某家
-</code></pre>
-<table>
-<thead>
-<tr>
-<th>順</th>
-<th>所持者</th>
-<th>時期</th>
-<th>摘要</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>1</td>
-<td>古田織部</td>
-<td>桃山-江戸初期</td>
-<td>注文・所持。「古田」銘の由来</td>
-</tr>
-<tr>
-<td>2</td>
-<td>冬木家</td>
-<td>江戸期</td>
-<td>江戸深川の豪商に伝来</td>
-</tr>
-<tr>
-<td>3</td>
-<td>古筆了泉</td>
-<td>江戸中期</td>
-<td>一時所持</td>
-</tr>
-<tr>
-<td>4</td>
-<td>吉原 検番大黒屋</td>
-<td>江戸中期</td>
-<td>質流れにより取得</td>
-</tr>
-<tr>
-<td>5</td>
-<td>扇屋宇右衛門</td>
-<td>江戸中期</td>
-<td>引取</td>
-</tr>
-<tr>
-<td>6</td>
-<td>鴻池炉雪</td>
-<td>天明年間（1781-1789）頃</td>
-<td>道具商加賀作の周旋により入手</td>
-</tr>
-<tr>
-<td>7</td>
-<td>鴻池家</td>
-<td>江戸後期-昭和17年</td>
-<td>昭和十七年の鴻池家入札には出品されず</td>
-</tr>
-<tr>
-<td>8</td>
-<td>大阪某家</td>
-<td>戦後-現在</td>
-<td>戦後に鴻池家を出る</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>各段階の典拠は『大正名器鑑』第6編 古田高麗項本文（pid:1014976 koma 236-240）の「伝来」項OCR（上掲引用ブロック）。本系譜表は同OCR本文を要約整形したもの。</p>
-</blockquote>
-<h2>付属</h2>
-<table>
-<thead>
-<tr>
-<th>部位</th>
-<th>仕様</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>内箱</td>
-<td>桐白木</td>
-</tr>
-<tr>
-<td>内箱蓋表書付</td>
-<td>小堀遠州筆「古田高麗」</td>
-</tr>
-<tr>
-<td>仕覆</td>
-<td>白地大唐草紋様緞子</td>
-</tr>
-<tr>
-<td>外箱</td>
-<td>桐白木</td>
-</tr>
-<tr>
-<td>添書付</td>
-<td>一通</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>出典: 『大正名器鑑』第6編 古田高麗項（pid:1014976 koma 236-240）</p>
-</blockquote>
-<h2>同手の御所丸茶碗（『大正名器鑑』第6編所載）</h2>
-<table>
-<thead>
-<tr>
-<th>銘</th>
-<th>系統</th>
-<th>旧蔵</th>
-<th>本文コマ</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>古田高麗</td>
-<td>白</td>
-<td>男爵鴻池善右衞門</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/236">236</a>（図版コマ235）</td>
-</tr>
-<tr>
-<td>—</td>
-<td>白</td>
-<td>東京 加藤正義</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/241">241</a></td>
-</tr>
-<tr>
-<td>—</td>
-<td>白</td>
-<td>大阪 藤田彦三郎</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/243">243</a></td>
-</tr>
-<tr>
-<td>—</td>
-<td>黒刷毛</td>
-<td>男爵 三井八郎右衞門</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/247">247</a></td>
-</tr>
-<tr>
-<td>—</td>
-<td>黒刷毛</td>
-<td>男爵 岩崎小彌太</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/253">253</a></td>
-</tr>
-<tr>
-<td>—</td>
-<td>黒刷毛</td>
-<td>大阪 和田久左衞門</td>
-<td><a href="https://dl.ndl.go.jp/pid/1014976/1/255">255</a></td>
-</tr>
-</tbody></table>
-<h2>引用ポリシー</h2>
+</details>
+
+<details class="acc">
+<summary>📖 引用ポリシー</summary>
 <ul>
-<li>図版は『大正名器鑑』のNDL「インターネット公開」資料からNDL IIIF Image API経由で直接埋め込み（編者没後70年経過によるパブリックドメイン）。</li>
-<li>本文テキストは一次資料（『大正名器鑑』）のOCRから引用ブロックとして提示する。OCR取得前のドラフトでは構造データのみ示し、解釈・要約は行わない。</li>
-<li>二次資料（後学集・名物目利聞書・閑窓雑記等）は『大正名器鑑』本文経由で参照系統が辿れるため、そのpid特定後に同様の引用方針で扱う。</li>
+<li>図版は『大正名器鑑』のNDL「インターネット公開」資料からNDL IIIF Image API経由で直接埋め込み（編者没後70年経過によるパブリックドメイン）</li>
+<li>本文テキストは一次資料（『大正名器鑑』）のOCRから引用ブロックとして提示</li>
+<li>二次資料（後学集・名物目利聞書・大正茶道記等）は『大正名器鑑』本文経由で参照系統が辿れるため、そのpid特定後に同様の引用方針で扱う</li>
 </ul>
-<h2>関連書籍・関連商品（PR）</h2>
-<blockquote>
-<p>本セクション準備中（Phase 7 で本人アフィリID注入後に静的バナーHTMLを配置予定）。</p>
-</blockquote>
-<pre><code class="language-html">&lt;!-- AffiliateBlock placeholder --&gt;
-&lt;!-- banner_set: chawan_korai_bansetsu --&gt;
-</code></pre>
-<h2>メタデータ・サイト内ナビゲーション</h2>
-<ul>
-<li>ジャンル: <a href="../../c/chadougu/">茶道具</a> &gt; <a href="../../c/chawan/">茶碗</a> &gt; <a href="../../c/chawan/gosyomaru/">御所丸</a></li>
-<li>国/制作期: <a href="../../c/chawan/korai/">朝鮮 高麗</a> / 桃山-江戸初期</li>
-<li>関連人名: <a href="../../people/furuta-oribe/">古田織部</a> | <a href="../../people/kobori-enshu/">小堀遠州</a> | <a href="../../people/konoike-rosetsu/">鴻池炉雪</a></li>
-<li>関連書誌: <a href="../../sources/taisho-meikikan-vol6/">大正名器鑑 第6編</a></li>
-</ul>
+</details>
+
+<h2>関連書籍・関連商品</h2>
+<p class="note">本セクション準備中（Phase 7 で本人アフィリID注入後に静的バナーHTMLを配置予定）</p>
+<!-- AffiliateBlock placeholder: banner_set: chawan_korai_bansetsu -->
+
 <hr>
-<p>最終検証: 2026-04-28（auto-progress タスク67 サンプル v2 — 一次資料（NDL）一本化・OCR取得待ちプレースホルダ化）<br>ステータス: 査読用ドラフト</p>
+<p class="note">最終検証: 2026-04-29（auto-progress タスク67 サンプル v6 — トップ4ブロック+アコーディオン構成）<br>
+ステータス: 査読用ドラフト</p>
 
-<details class="fm"><summary>メタデータ（YAML frontmatter）</summary><pre>id: gosyomaru-furutakourai
-name: 御所丸茶碗 銘 古田高麗
-yomi: ごしょまるちゃわん めい ふるたごうらい
-genre: chadougu
-kind: chawan
-subkind: gosyomaru
-country: korea
-period: late_16c-early_17c
-era: momoyama-edo_early
-designation: meibutsu
-designation_label: 名物（『大正名器鑑』第6編 御所丸之部 所載）
-collection_origin: 朝鮮慶尚南道金海窯（『大正名器鑑』）
-collection_first_owner: 古田織部
-collection_current: 大阪某家（戦後）
-size:
-  height_cm: [7.5, 8.0]
-  diameter_cm: [11.2, 13.0]
-  foot_diameter_cm: [7.3, 7.7]
-  foot_height_cm: [0.7, 0.9]
-  size_source:
-    - { source: taisho_meikikan_vol6, fields: [height, diameter, foot_diameter, foot_height], note: "大正名器鑑 第6編 古田高麗項 寸法表記" }
-
-provenance:
-  - { who: 古田織部, when: 桃山-江戸初期, role: 注文・所持, source: taisho_meikikan_vol6 }
-  - { who: 冬木家（江戸深川 豪商）, when: 江戸期, role: 伝来, source: taisho_meikikan_vol6 }
-  - { who: 古筆了泉, when: 江戸中期, role: 一時所持, source: taisho_meikikan_vol6 }
-  - { who: 吉原 検番大黒屋, when: 江戸中期, role: 質流れにより取得, source: taisho_meikikan_vol6 }
-  - { who: 扇屋宇右衛門, when: 江戸中期, role: 引取, source: taisho_meikikan_vol6 }
-  - { who: 鴻池炉雪（鴻池家）, when: 天明年間（1781-1789）頃, role: 道具商加賀作の周旋により入手, source: taisho_meikikan_vol6 }
-  - { who: 鴻池家, when: 江戸後期-昭和17年, role: 所蔵, source: taisho_meikikan_vol6 }
-  - { who: 大阪某家, when: 戦後-現在, role: 所蔵, source: pending_verification, note: 戦後の所蔵者は『大正名器鑑』本文外の情報のため未裏取り }
-
-authentications_attached:
-  - { type: 内箱蓋表書付, who: 小堀遠州, material: 桐白木, content: 「古田高麗」, source: taisho_meikikan_vol6 }
-  - { type: 仕覆, material: 白地大唐草紋様緞子, source: taisho_meikikan_vol6 }
-  - { type: 外箱, material: 桐白木, source: taisho_meikikan_vol6 }
-  - { type: 添書付, count: 一通, source: taisho_meikikan_vol6 }
-
-images:
-  - strategy: ndl_iiif
-    role: primary_citation
-    ndl_pid: "1014976"
-    koma: 235
-    page_in_book: 224
-    image_url: "https://dl.ndl.go.jp/api/iiif/1014976/R0000235/full/1008,/0/default.jpg"
-    image_url_full: "https://dl.ndl.go.jp/api/iiif/1014976/R0000235/full/full/0/default.jpg"
-    caption: "『大正名器鑑』第6編 御所丸之部 古田高麗 図版（コマ235・印刷ページ224対向）— 茶碗側面・底面・蓋箱"
-    license: public_domain
-    license_basis: 編者高橋義雄（1861-1937）没後70年経過、NDL「インターネット公開」判定
-    verified_visual: 2026-04-28 (auto-progress task 67) — koma 235 に「古田高麗」キャプションと茶碗図版3点を視認
-  - strategy: ndl_iiif
-    role: primary_text_pages
-    ndl_pid: "1014976"
-    koma_range: [236, 240]
-    note: "古田高麗本文記述コマ範囲（コマ236が「古田高麗」項本文冒頭、印刷ページ225）。OCR取得は後続Phase。"
-    license: public_domain
-
-sources:
-  - source_id: taisho_meikikan_vol6
-    title: "大正名器鑑 第6編"
-    author: 高橋義雄編
-    publisher: 大正名器鑑編纂所
-    year: 1921-1926
-    ndl_pid: "1014976"
-    koma_plate: 235
-    koma_text_start: 236
-    koma_text_end: 240
-    page_start: 225
-    section: 御所丸之部
-    entry_label: 古田高麗
-    url_plate: https://dl.ndl.go.jp/pid/1014976/1/235
-    url_text_start: https://dl.ndl.go.jp/pid/1014976/1/236
-    iiif_manifest: https://dl.ndl.go.jp/api/iiif/1014976/manifest.json
-    license: public_domain
-    role: primary
-  - source_id: gogakushu
-    title: "後学集"
-    author: 戸田露吟
-    note: 銘物・寸法集。『大正名器鑑』本文中で参照
-    available_via: 『大正名器鑑』第6編 古田高麗項
-    role: secondary_via_primary
-  - source_id: meibutsu_mokuri_kikigaki
-    title: "名物目利聞書"
-    author: 紀国屋彦二郎
-    note: 御所丸の伝来記載。『大正名器鑑』本文中で参照
-    available_via: 『大正名器鑑』第6編 御所丸之部
-    role: secondary_via_primary
-  - source_id: kanso_zakki
-    title: "閑窓雑記"
-    note: 鴻池家入手の経緯。『大正名器鑑』本文中で参照
-    available_via: 『大正名器鑑』第6編 古田高麗項
-    role: secondary_via_primary
-  - source_id: chuou_taisho_chadoki
-    title: "中央大正茶道記"
-    note: 大正期茶会記録での御所丸古田高麗言及
-    role: secondary
-    pid_lookup: pending
-
-related_persons:
-  - { name: 古田織部, role: original_owner }
-  - { name: 小堀遠州, role: 箱書筆者 }
-  - { name: 古筆了泉, role: provenance }
-  - { name: 鴻池炉雪, role: provenance }
-  - { name: 加賀作, role: dealer, note: 鴻池家出入りの道具商 }
-
-related_places:
-  - { name: 朝鮮慶尚南道金海, role: kiln, kind: kiln_site }
-  - { name: 江戸深川（東京都江東区）, role: provenance, kind: city }
-  - { name: 吉原（東京都台東区）, role: provenance, kind: city }
-  - { name: 大阪, role: current_collection, kind: city }
-
-tags:
-  - 御所丸
-  - 朝鮮茶碗
-  - 高麗茶碗
-  - 古田織部
-  - 名物
-  - 大正名器鑑
-  - 鴻池家
-  - 小堀遠州箱
-
-cross_references:
-  - { kind: companion_pieces, label: 御所丸（白）東京加藤正義氏藏, ndl_pid: "1014976", koma: 241, page: 231 }
-  - { kind: companion_pieces, label: 御所丸（白）大阪藤田彦三郎氏藏, ndl_pid: "1014976", koma: 243, page: 233 }
-  - { kind: companion_pieces, label: 御所丸（黒刷毛）男爵三井八郎右衞門氏藏, ndl_pid: "1014976", koma: 247, page: 237 }
-  - { kind: companion_pieces, label: 御所丸（黒刷毛）男爵岩崎小彌太氏藏, ndl_pid: "1014976", koma: 253, page: 243 }
-  - { kind: companion_pieces, label: 御所丸（黒刷毛）大阪和田久左衞門氏藏, ndl_pid: "1014976", koma: 255, page: 245 }
-
-affiliate:
-  banner_set: chawan_korai_bansetsu
-  custom_banners: []
-  related_search_keywords:
-    - 御所丸
-    - 朝鮮茶碗
-    - 高麗茶碗
-    - 古田織部
-    - 大正名器鑑
-  related_book_isbn:
-    - "978-4-8016-0323-3"   # 現代語訳大正名器鑑（淡交社, 茶碗篇）
-  rakuten_genre_id: 100533
-
-last_verified: 2026-04-28
-verifier: auto-progress task 67 (sample v4 — NDL OCR injection)
-status: draft_for_review
-ocr_acquired:
-  - source: taisho_meikikan_vol6
-    koma_range: [236, 240]
-    api: "https://lab.ndl.go.jp/dl/api/analyze/page/1014976_{koma}"
-    fields_extracted: [名称由来, 寸法, 釉薬, 伝来, 付属物, 実見記, 参照書誌]
-    cleanup: minimal_obvious_ocr_errors_only</pre></details>
-<hr>
-<p style="font-size:.85em;color:#666">auto-progress task 67 sample / NDL「インターネット公開」資料を引用 / <a href="../">← index</a></p>
 </body>
 </html>
